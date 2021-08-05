@@ -29,7 +29,7 @@ function addItem(e){
     var deleteBtn = document.createElement('button');
 
     // Add Classname
-    deleteBtn.className = "btn btn-danger btn-sm float-end";
+    deleteBtn.className = "btn btn-danger btn-sm float-end delete";
     deleteBtn.appendChild(document.createTextNode('X'));
 
     // Append button to li
